@@ -42,9 +42,9 @@ addToCart(
   "cart-total"
 );
 
-const promoCode = document.getElementById("promo-field").value;
 document.getElementById("apply-btn").addEventListener("click", () => {
-  if (promoCode == "DISC30") {
+  const promoCode = document.getElementById("promo-field").value;
+  if (promoCode == "DISCO30") {
     const cartTotalPrice = getQuentityField("cart-total");
     const discPrice = cartTotalPrice - cartTotalPrice * 0.3;
     setQuentity("disc-price", discPrice);
