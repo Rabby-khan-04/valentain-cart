@@ -85,8 +85,8 @@
                         </div>
                     </div>
                     <div class="product p-4 bg-white rounded-lg text-center">
-                        <img src="assets/room.png" class="w-full block mb-4" alt="">
-                        <h2 class="text-3xl font-semibold mb-4">Room For 1 Hour</h2>
+                        <img src="assets/room.png" class="w-full block mb-4" id="room-img" alt="">
+                        <h2 id="room" class="text-3xl font-semibold mb-4">Room For 1 Hour</h2>
                         <h3 class="text-2xl font-semibold mb-4"><span id="hour-price">1500</span> TK</h3>
                         <div class="add-to-cart grid grid-cols-2 gap-4">
                             <div class="quantity grid grid-cols-2 gap-x-4">
@@ -124,6 +124,17 @@
                     <div class="flex justify-between items-center py-2 mb-4 border-2 border-black px-2">
                         <h2 class="txt-2xl font-semibold">Total:</h2>
                         <h2 class="txt-2xl font-semibold"><span id="cart-total">00</span> TK</h2>
+                    </div>
+
+                    <div class="p-3 bg-red-400 rounded-lg mt-10">
+                        <h1 class="text-2xl text-center font-bold text-white mb-5">Get A Discount OFF 30%</h1>
+                        <input type="text" name="" id="promo-field" placeholder="Enter The Promo Code"
+                            class="w-full mb-5 text-xl p-4 rounded-lg">
+                        <button type="submit" id="apply-btn"
+                            class="w-full block px-7 py-3 mb-5 bg-violet-700 text-xl font-semibold text-white rounded-lg">Apply</button>
+
+                        <h2 class="text-2xl text-center font-bold text-white">Discout Price: <span
+                                id="disc-price">00</span></h2>
                     </div>
 
                 </div>

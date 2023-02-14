@@ -77,5 +77,6 @@ const addToCart = (
     const cartCurrent = getQuentityField(cartTotlaPrice);
     const cartTotal = cartCurrent + totalPrice;
     setQuentity(cartTotlaPrice, cartTotal);
+    document.getElementById(quantityFieldId).innerHTML = 0;
   });
 };
