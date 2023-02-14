@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3f461dde5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-emerald-100">
+
+    <section class="py-40">
+        <div class="w-[1180px] mx-auto">
+
+            <div class="container grid grid-cols-3 gap-5">
+
+                <div class="col-span-2 grid grid-cols-2 gap-5">
+                    <div class="product p-4 bg-white rounded-lg text-center">
+                        <img src="assets/rose-buke.jpg" class="w-full block mb-4" id="rose-img" alt="">
+                        <h2 id="rose" class="text-3xl font-semibold mb-4">Rose Buke</h2>
+                        <h3 class="text-2xl font-semibold mb-4"><span id="rose-price">100</span> TK</h3>
+                        <div class="add-to-cart grid grid-cols-2 gap-4">
+                            <div class="quantity grid grid-cols-2 gap-x-4">
+                                <div
+                                    class="row-span-2 flex items-center justify-center bg-emerald-100 border-2 border-black rounded-lg w-full h-full">
+                                    <span id="rose-quantity" class="quantity block text-xl font-bold">0</span>
+                                </div>
+                                <button id="rose-q-add" class="add block bg-red-300 rounded-md text-xl mb-3"><i
+                                        class="fa-sharp fa-solid fa-caret-up"></i></button>
+                                <button id="rose-q-remove" class="remove block bg-red-300 rounded-md text-xl"><i
+                                        class="fa-sharp fa-solid fa-caret-down"></i></button>
+                            </div>
+                            <div class="justify-self-center self-center">
+                                <button id="rose-btn"
+                                    class="cart-btn bg-blue-600 rounded-lg py-4 px-8 text-white font-semibold text-[18px]">Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product p-4 bg-white rounded-lg text-center">
+                        <img src="assets/teddy-bear.png" class="w-full block mb-4" id="teddy-img" alt="">
+                        <h2 id="teddy" class="text-3xl font-semibold mb-4">Teddy Bear</h2>
+                        <h3 class="text-2xl font-semibold mb-4"><span id="teddy-price">1000</span> TK</h3>
+                        <div class="add-to-cart grid grid-cols-2 gap-4">
+                            <div class="quantity grid grid-cols-2 gap-x-4">
+                                <div
+                                    class="row-span-2 flex items-center justify-center bg-emerald-100 border-2 border-black rounded-lg w-full h-full">
+                                    <span id="teddy-quantity" class="quantity block text-xl font-bold">0</span>
+                                </div>
+                                <button id="taddy-q-add" class="add block bg-red-300 rounded-md text-xl mb-3"><i
+                                        class="fa-sharp fa-solid fa-caret-up"></i></button>
+                                <button id="teddy-q-remove" class="remove block bg-red-300 rounded-md text-xl"><i
+                                        class="fa-sharp fa-solid fa-caret-down"></i></button>
+                            </div>
+                            <div class="justify-self-center self-center">
+                                <button id="teddy-btn"
+                                    class="cart-btn bg-blue-600 rounded-lg py-4 px-8 text-white font-semibold text-[18px]">Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product p-4 bg-white rounded-lg text-center">
+                        <img src="assets/kitkat.png" class="w-full block mb-4" id="kit-img" alt="">
+                        <h2 id="kit-kat" class="text-3xl font-semibold mb-4">Kitkat Chocolate</h2>
+                        <h3 class="text-2xl font-semibold mb-4"><span id="kit-price">150</span> TK</h3>
+                        <div class="add-to-cart grid grid-cols-2 gap-4">
+                            <div class="quantity grid grid-cols-2 gap-x-4">
+                                <div
+                                    class="row-span-2 flex items-center justify-center bg-emerald-100 border-2 border-black rounded-lg w-full h-full">
+                                    <span id="kit-quantity" class="quantity block text-xl font-bold">0</span>
+                                </div>
+                                <button id="kit-q-add" class="add block bg-red-300 rounded-md text-xl mb-3"><i
+                                        class="fa-sharp fa-solid fa-caret-up"></i></button>
+                                <button id="kit-q-remove" class="remove block bg-red-300 rounded-md text-xl"><i
+                                        class="fa-sharp fa-solid fa-caret-down"></i></button>
+                            </div>
+                            <div class="justify-self-center self-center">
+                                <button id="kit-btn"
+                                    class="cart-btn bg-blue-600 rounded-lg py-4 px-8 text-white font-semibold text-[18px]">Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product p-4 bg-white rounded-lg text-center">
+                        <img src="assets/room.png" class="w-full block mb-4" alt="">
+                        <h2 class="text-3xl font-semibold mb-4">Room For 1 Hour</h2>
+                        <h3 class="text-2xl font-semibold mb-4"><span id="hour-price">1500</span> TK</h3>
+                        <div class="add-to-cart grid grid-cols-2 gap-4">
+                            <div class="quantity grid grid-cols-2 gap-x-4">
+                                <div
+                                    class="row-span-2 flex items-center justify-center bg-emerald-100 border-2 border-black rounded-lg w-full h-full">
+                                    <span id="hour-quantity" class="quantity block text-xl font-bold">0</span>
+                                </div>
+                                <button id="hour-add" class="add block bg-red-300 rounded-md text-xl mb-3"><i
+                                        class="fa-sharp fa-solid fa-caret-up"></i></button>
+                                <button id="hour-remove" class="remove block bg-red-300 rounded-md text-xl"><i
+                                        class="fa-sharp fa-solid fa-caret-down"></i></button>
+                            </div>
+                            <div class="justify-self-center self-center">
+                                <button id="room-btn"
+                                    class="cart-btn bg-blue-600 rounded-lg py-4 px-8 text-white font-semibold text-[18px]">Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bg-white rounded-lg p-4">
+                    <h2 class="text-center text-4xl font-bold font-mono border-b-2 border-emerald-100 py-4 mb-4">Product
+                        Cart</h2>
+
+                    <div id="cart-products">
+                        <div class="flex justify-between items-center py-2 mb-4 border-2 border-black px-2">
+                            <h2 class="txt-xl font-semibold">Image</h2>
+                            <h2 class="txt-xl font-semibold">Title</h2>
+                            <h2 class="txt-xl font-semibold">Qty:</h2>
+                            <h2 class="txt-xl font-semibold">Sub total</h2>
+                            <h2 class="txt-xl font-semibold">Action</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center py-2 mb-4 border-2 border-black px-2">
+                        <h2 class="txt-2xl font-semibold">Total:</h2>
+                        <h2 class="txt-2xl font-semibold"><span id="cart-total">00</span> TK</h2>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="utilities.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
